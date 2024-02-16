@@ -49,10 +49,16 @@ Before pushing changes, it's always a good idea to run tests locally to ensure t
 Communicate with your collaborator to avoid conflicts and coordinate changes effectively.
 
 
-## Postcode Fetcher
+## Postcode Fetcher Script
 
 This Python script fetches postcode data using the postcodes.io API and generates a CSV file with modified data.
 
 ### How to Run
 1. Run the script: `python fetch_postcodes.py`
 
+## Compute Distance Matrix Script
+
+This Python script provides a solution for computing distance matrices between geographical points, enabling efficient analysis and utilization of location-based data.
+
+### How to Run
+1. Run the script: `python compute_distance_matrix.py`
