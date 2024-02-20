@@ -2,12 +2,12 @@ import pandas as pd
 import json
 import urllib.request
 
-def create_data():
+def create_data(dataframe):
     """Creates the data."""
     data = {}
     data['API_key'] = 'AIzaSyBmExJmKbPo-FXlY2sGx7JWBBQx9UhA4gs'
     # Read latitude and longitude from data.csv
-    df = pd.read_csv('data.csv', nrows=24)
+    df = dataframe
     data['addresses'] = [f"{row['latitude']},{row['longitude']}" for _, row in df.iterrows()]
 
     return data
@@ -50,10 +50,13 @@ def send_request(origin_addresses, dest_addresses, API_key):
 
 def build_distance_matrix(response):
     distance_matrix = []
+    duration_matrix = []
     for row in response['rows']:
         row_list = [row['elements'][j]['distance']['value'] for j in range(len(row['elements']))]
         distance_matrix.append(row_list)
-    return distance_matrix
+        row_list_duration = [row['elements'][j]['duration']['value'] for j in range(len(row['elements']))]
+        duration_matrix.append(row_list_duration)
+    return distance_matrix, duration_matrix
 
 ########
 # Main #
@@ -61,9 +64,16 @@ def build_distance_matrix(response):
 def main():
     """Entry point of the program"""
     # Create the data.
-    data = create_data()
-    distance_matrix = create_distance_matrix(data)
+    df = pd.read_csv('data.csv', nrows=4)
+    data = create_data(df)
+    distance_matrix,duration_matrix = create_distance_matrix(data)
     print(distance_matrix)
+    
+    # Export matrix for distance and duration 
+    with open(f'data/distance_matrix/distance_matrix_{len(df)}_points.json', 'w') as distance_file:
+        json.dump(distance_matrix, distance_file)
+    with open(f'data/duration_matrix/duration_matrix_{len(df)}_points.json', 'w') as duration_file:
+        json.dump(duration_matrix, duration_file)
 
 if __name__ == '__main__':
     main()
