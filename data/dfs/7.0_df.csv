@@ -1,0 +1,9 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+7,225 Sandwell Rd B21 8PD,111,0,collection,7,0.0,7.0,1027.0,52.5142167,-1.9476072
+17,7 Stephenson St B2 4BL,200,0,delivery,17,1.0,7.0,636.0,52.4788745,-1.8996622
+27,11 Brook St B3 1SA,177,1,collection,27,0.0,7.0,867.0,52.48474849999999,-1.907335
+37,33 Bennetts Hill B2 5SN,61,0,collection,37,0.0,7.0,1316.0,52.48007339999999,-1.9000687
+47,43 Alcester Rd B13 8AA,76,0,delivery,47,0.0,7.0,175.0,52.4510267,-1.8890491
+57,16 Hurst St B5 4BN,75,1,collection,57,0.0,7.0,814.0,52.47530219999999,-1.8975009
+66,4 Woodcock St B7 4BL,99,1,collection,66,,7.0,,52.4860078,-1.8852496
+76,176 Edmund St B3 2HB,96,0,delivery,76,,7.0,,52.4829972,-1.8996293

@@ -1,0 +1,8 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+8,7 Masshouse Ln B5 5JN,52,0,delivery,8,0.0,8.0,757.0,52.4816434,-1.8893144
+18,16 Church St B3 2NP,63,1,delivery,18,1.0,8.0,1385.0,52.4820386,-1.900294
+28,55 Cornwall St B3 2DH,127,1,collection,28,0.0,8.0,1008.0,52.4827361,-1.9016615
+38,56 New St B2 4DU,105,1,collection,38,0.0,8.0,52.0,52.4794464,-1.9003647
+48,265 Soho Rd B21 9RY,48,0,delivery,48,0.0,8.0,1146.0,52.5034467,-1.9357237
+67,42 Bull St B4 6AF,146,0,collection,67,,8.0,,52.4822363,-1.8964007
+77,2 Chamberlain Sq B3 3AX,58,0,collection,77,,8.0,,52.4798262,-1.9048386

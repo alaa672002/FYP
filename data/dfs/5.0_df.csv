@@ -1,0 +1,17 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+5,16 Grenville Dr B66 1TQ,93,0,collection,5,0.0,5.0,310.0,52.50346529999999,-1.9871026
+10,22 Highfield Rd B15 3DP,146,0,collection,10,0.0,5.0,1333.0,52.4692809,-1.9230656
+15,160 Hagley Rd B16 9NX,154,0,collection,15,0.0,5.0,818.0,52.4717421,-1.9373396
+20,160 Broad St B15 1DT,92,0,collection,20,0.0,5.0,1318.0,52.473062,-1.916788
+25,71 New St B2 4DU,131,1,collection,25,0.0,5.0,830.0,52.4795533,-1.9017604
+30,54 Warstone Ln B18 6NG,112,0,delivery,30,0.0,5.0,1449.0,52.48694949999999,-1.9132578
+35,21 Ladywell Walk B5 4ST,56,0,delivery,35,0.0,5.0,957.0,52.4750714,-1.8963035
+40,98 New St B2 4HS,20,0,delivery,40,0.0,5.0,1299.0,52.4791671,-1.9007205
+45,1 Constitution Hill B19 3LG,12,0,collection,45,0.0,5.0,71.0,52.4866842,-1.9014535
+50,109 Icknield St B18 6RZ,165,0,collection,50,0.0,5.0,1018.0,52.4867848,-1.9172407
+55,73 Cornwall St B3 2DF,118,0,delivery,55,0.0,5.0,832.0,52.4822839,-1.9025353
+59,8 Wrottesley St B5 4RT,20,0,collection,59,0.0,5.0,407.0,52.475257,-1.8971
+64,10 Parliament St B10 0QJ,89,0,delivery,64,,5.0,,52.4704978,-1.8642008
+69,31 Ludgate Hill B3 1EH,154,1,delivery,69,,5.0,,52.4846302,-1.9049748
+74,190 Corporation St B4 6QD,45,1,collection,74,,5.0,,52.48323689999999,-1.8931083
+79,17 Thorp St B5 4AT,14,1,collection,79,,5.0,,52.4748075,-1.8984763

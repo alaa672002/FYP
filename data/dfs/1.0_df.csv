@@ -1,0 +1,10 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+1,19 chandlers close B18 5rx,200,1,collection,1,1.0,1.0,276.0,52.49337389999999,-1.9305519
+11,4 Woodbridge Rd B13 8EJ,31,0,collection,11,0.0,1.0,136.0,52.4481749,-1.8871041
+21,20 Highfield Rd B15 3DU,44,1,delivery,21,0.0,1.0,729.0,52.4692545,-1.9238606
+31,245 Broad St B1 2HQ,43,1,delivery,31,0.0,1.0,885.0,52.4767442,-1.9114864
+41,25 Hall St B18 6BS,135,1,delivery,41,0.0,1.0,945.0,52.4877352,-1.9081814
+51,152 High St B17 9PN,160,1,delivery,51,0.0,1.0,262.0,52.45888369999999,-1.9478938
+60,140 Beacon Rd B43 7BN,120,0,delivery,60,,1.0,,52.55700599999999,-1.9113041
+70,95 Newhall St B3 1BA,198,0,delivery,70,,1.0,,52.4833833,-1.9047674
+80,65 Summer Row B3 1JJ,37,0,delivery,80,,1.0,,52.4816602,-1.9077835

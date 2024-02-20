@@ -1,0 +1,9 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+6,16 Seymour Rd B69 4ER,155,1,delivery,6,1.0,6.0,1355.0,52.501772,-1.999824
+16,55 Colmore Row B3 2AA,159,0,delivery,16,0.0,6.0,327.0,52.4815826,-1.9000897
+26,24 Ludgate Hill B3 1DX,10,1,delivery,26,0.0,6.0,787.0,52.4846205,-1.9042845
+36,8 Caroline St B3 1TW,82,0,delivery,36,0.0,6.0,83.0,52.4859748,-1.9070184
+46,7 The Minories B4 6AG,56,0,collection,46,0.0,6.0,282.0,52.4819858,-1.8954499
+56,5 Greenfield Cres B15 3BE,166,1,delivery,56,0.0,6.0,1175.0,52.46973389999999,-1.9210012
+65,27 Warstone Ln B18 6JQ,55,0,collection,65,,6.0,,52.4872385,-1.9105611
+75,23 Highfield Rd B15 3DP,130,1,delivery,75,,6.0,,52.4692809,-1.9230656

@@ -1,0 +1,9 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+2,192a Bacchus Rd B18 4RB,150,0,collection,2,0.0,2.0,541.0,52.4963138,-1.9343318
+12,16 Gas St B1 2JT,189,0,collection,12,0.0,2.0,1147.0,52.4775019,-1.9105212
+22,22 Waterfront Walk B1 1SN,19,1,collection,22,1.0,2.0,1413.0,52.4754852,-1.9074246
+32,99 Villa Rd B19 1NH,169,1,collection,32,0.0,2.0,667.0,52.5026983,-1.9173589
+42,70 Hurst St B5 4TD,91,0,collection,42,0.0,2.0,317.0,52.4744417,-1.8966049
+52,340 Aldridge Rd B44 8BH,200,1,delivery,52,0.0,2.0,763.0,52.5293658,-1.8954614
+61,19 Bennetts Hill B2 5QJ,19,0,collection,61,,2.0,,52.4795793,-1.9000886
+71,7 Waterloo St B2 5PG,157,0,collection,71,,2.0,,52.4803585,-1.8999223

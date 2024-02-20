@@ -1,0 +1,17 @@
+order_id,location,order_weight,special_care,order_type,stop_number,vehicle_status,vehicle_id,vehicle_capacity,latitude,longitude
+4,22 Queens Cl B67 7DY,147,1,collection,4,1.0,4.0,221.0,52.4937319,-1.9709339
+9,68 The Green B38 8RU,162,0,delivery,9,0.0,4.0,1077.0,52.4071104,-1.9304778
+14,6 Brindley Pl B1 2JB,46,0,delivery,14,0.0,4.0,131.0,52.4777052,-1.9134755
+19,12 Bennetts Hill B2 5RS,102,1,collection,19,1.0,4.0,106.0,52.4796016,-1.9003565
+24,35 Gas St B1 2JT,42,0,delivery,24,0.0,4.0,842.0,52.476731,-1.9092176
+29,3 Alcott Ln B37 7AT,153,1,collection,29,0.0,4.0,1343.0,52.46854339999999,-1.7522511
+34,16 Waterloo St B2 5UG,194,0,delivery,34,0.0,4.0,730.0,52.4798856,-1.9013855
+39,18 Fleet St B3 1JL,106,1,delivery,39,0.0,4.0,1029.0,52.4831736,-1.9056878
+44,117 Wharfside St B1 1RF,97,0,collection,44,0.0,4.0,785.0,52.475784,-1.9060329
+49,273 Church Rd B26 3YH,200,0,collection,49,0.0,4.0,311.0,52.4635159,-1.7759257
+54,95 Warstone Ln B18 6NG,87,0,delivery,54,0.0,4.0,1049.0,52.4869038,-1.9158098
+58,245 Broad St B1 2HQ,199,0,delivery,58,0.0,4.0,1415.0,52.4767442,-1.9114864
+63,8 Bennetts Hill B2 5RS,58,0,collection,63,,4.0,,52.4799973,-1.9004518
+68,14 Caroline St B3 1TR,194,1,collection,68,,4.0,,52.4864095,-1.9076958
+73,6 Inge St B5 4TE,53,0,collection,73,,4.0,,52.4743106,-1.8973547
+78,230 Birmingham Rd B43 7AG,96,1,collection,78,,4.0,,52.5585392,-1.9383678
