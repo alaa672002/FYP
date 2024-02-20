@@ -6,6 +6,20 @@ from tqdm import tqdm
 import config
 
 def get_distance_and_duration(origin_lat, origin_lng, dest_lat, dest_lng, api_key, counter):
+    """
+    Get distance and duration between two points using Distance Matrix API.
+
+    Args:
+    - origin_lat (float): Latitude of the origin point.
+    - origin_lng (float): Longitude of the origin point.
+    - dest_lat (float): Latitude of the destination point.
+    - dest_lng (float): Longitude of the destination point.
+    - api_key (str): API key for accessing the Distance Matrix API.
+    - counter (tqdm.tqdm): Progress counter for tracking API requests.
+
+    Returns:
+    - tuple: A tuple containing distance (in meters) and duration (in seconds).
+    """
     try:
         # url = f"https://api.distancematrix.ai/maps/api/distancematrix/json?origins={origin_lat},{origin_lng}&destinations={dest_lat},{dest_lng}&key={api_key}"
         url = f"https://api-v2.distancematrix.ai/maps/api/distancematrix/json?origins={origin_lat},{origin_lng}&destinations={dest_lat},{dest_lng}&key={api_key}"
@@ -22,6 +36,15 @@ def get_distance_and_duration(origin_lat, origin_lng, dest_lat, dest_lng, api_ke
 
 
 def main(dataframe,vehicle_id,api_key,mode='both'):
+    """
+    Compute distance and duration matrices for given locations.
+
+    Args:
+    - dataframe (pd.DataFrame): DataFrame containing location data.
+    - vehicle_id (int): ID of the vehicle associated with the data.
+    - api_key (str): API key for accessing the Distance Matrix API.
+    - mode (str, optional): Either 'distance', 'duration', or 'both'. Specifies whether to compute only distance matrix, only duration matrix, or both. Defaults to 'both'.
+    """
     api_key = api_key
     df = dataframe
     locations = list(zip(df['latitude'], df['longitude']))

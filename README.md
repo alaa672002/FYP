@@ -58,7 +58,16 @@ This Python script fetches postcode data using the postcodes.io API and generate
 
 ## Compute Distance Matrix Script
 
-This Python script provides a solution for computing distance matrices between geographical points, enabling efficient analysis and utilization of location-based data.
+This Python script provides a solution for computing distance matrices between geographical points, enabling efficient analysis and utilization of location-based data. It uses google cloud api. 
 
 ### How to Run
-1. Run the script: `python compute_distance_matrix.py`
+1. Replace config.api_key in config.py with your API key.
+2. Run the script: `python compute_distance_matrix.py`
+
+## API Distance Matrix Script
+
+This Python script utilizes an external API https://distancematrix.ai/nonprofit to calculate distance and duration matrices between pairs of geographical coordinates. The calculated matrices are stored in JSON files for further analysis. The API is free up to 1000 requests.
+
+### How to Run
+1. Replace config.api_key in config.py with your API key.
+2. Run the script: `python apidistancematrix.py`
