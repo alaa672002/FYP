@@ -2,3 +2,6 @@ pandas
 requests
 googlemaps
 ortools
+folium
+scikit-learn
+numpy
